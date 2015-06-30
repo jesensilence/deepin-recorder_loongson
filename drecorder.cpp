@@ -43,6 +43,7 @@ void DRecorder::bt_stop(){
 
 
     system("pkill arecord");
-    system("pkill arecord");system("pkill arecord");system("pkill arecord");
+    system("pkill arecord");
+    system("pkill arecord");
     ui->pushButton_start->setDisabled(false);
 }
